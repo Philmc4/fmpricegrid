@@ -1,0 +1,44 @@
+@media (max-width: 700px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+
+  .top {
+    font-size: 14px;
+  }
+  .main-container {
+    height: 722px;
+    width: 311px;
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 28px;
+  }
+  .top-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem 1.5rem 2rem;
+    height: 227px;
+  }
+  .bottom-content {
+    flex-direction: column;
+  }
+  .subscription {
+    flex-direction: column;
+    height: 227px;
+    width: 311px;
+    padding: 2rem;
+    border-bottom-left-radius: 0px;
+  }
+  .why {
+    flex-direction: column;
+    height: 240px;
+    width: 311px;
+    padding: 2rem;
+    border-bottom-right-radius: 0px;
+  }
+}
